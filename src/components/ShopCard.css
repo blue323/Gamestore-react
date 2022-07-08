@@ -1,0 +1,45 @@
+.card {
+    background-color: rgb(246, 182, 255);
+    height: 420px;
+    width: 250px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.genres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin: 0 5px;
+}
+
+button {
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.shop-button:hover {
+    background-color: lavender;
+}

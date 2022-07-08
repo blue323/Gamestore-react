@@ -1,0 +1,30 @@
+.cart {
+    background-color: rgb(233, 233, 233);
+    margin: 0;
+    padding: 0;
+    padding-top: 0.5em;
+}
+
+.cart h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.backGround {
+    margin: 0 auto;
+    background-color: rgb(170, 167, 167);
+    width: 30%;
+    margin-bottom: 40px;
+    padding: 1em 0;
+    padding-bottom: 2em;
+    border-radius: 15px;
+}
+
+.order:hover {
+    background-color: lavender;
+}
+
+.empty {
+    height: 90vh;
+}

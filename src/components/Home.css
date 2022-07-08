@@ -1,0 +1,35 @@
+.home {
+    text-align: center;
+    background-color: #3f3e3e;
+    background-image: url('https://cdn2.unrealengine.com/Diesel%2Fblog%2Faccount-security-at-epic-games%2FEGS_Social_Update_News-2560x1440-128a69890d92407b815582c1deba54450e5645f9.jpg');
+    background-size: cover;
+    background-blend-mode: soft-light;
+    padding: 0.3em 0;
+    height: 80vh;
+    color: #fff;
+}
+
+.home h1 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.home a {
+    display: inline-block;
+    margin-top: 100px;
+    border: none;
+    font-size: inherit;
+    cursor: pointer;
+    background-color: #fff;
+    color: #242424;
+    font-size: 1.3rem;
+    padding: 1em 2em;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.home a:hover {
+    background-color: rgb(232, 121, 246);
+    color: #fff;
+}
+

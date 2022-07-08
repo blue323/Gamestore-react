@@ -1,0 +1,51 @@
+nav {
+    background-color: rgb(232, 121, 246);
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.nav-title {
+    font-size: 2rem;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style: none;
+}
+
+
+li > * {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+nav a {
+    color: #fff;
+    width: 50px;
+    padding: 0.2em 0.7em;
+}
+
+nav a:hover {
+    opacity: 0.45;
+    color: #242424;
+}
+
+span {
+    margin-left: 5px;
+}
+
+.active {
+    color: #242424;
+}
+
+@media (max-width: 600px) {
+    nav,
+    ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}

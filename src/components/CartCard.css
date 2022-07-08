@@ -1,0 +1,42 @@
+.cartCard {
+    background-color: rgb(246, 182, 255);
+    height: 470px;
+    width: 250px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.delete {
+    margin-top: 10px;
+}
+
+.delete:hover,
+.operation:hover {
+    background-color: lavender;
+}
+
+.cartOperations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.operation {
+    border-radius: 0px;
+    width: 24px;
+    height: 23.5px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+
+input {
+    width: 15%;
+    text-align: center;
+    height: 1.48em;
+    border: 1px solid #fff;
+}

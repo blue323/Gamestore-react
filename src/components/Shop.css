@@ -1,0 +1,47 @@
+.shop {
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+    margin: 0;
+    padding: 0;
+    padding-top: 0.5em;
+}
+
+.shop h1 {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #242424;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 3em 0;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: rgb(246, 182, 255);
+}
+
+@media (min-width: 600px) {
+    .game {
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        align-items: center;
+        gap: 15px;
+        max-width: 1200px;
+    }
+}
